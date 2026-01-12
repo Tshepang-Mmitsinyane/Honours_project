@@ -4,3 +4,4 @@ numpy
 pillow
 scikit-learn
 matplotlib
+open terminal and type streamlit run app.py to run application
