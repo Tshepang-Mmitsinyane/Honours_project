@@ -23,7 +23,7 @@ st.write(
 @st.cache_resource
 def load_model():
     return tf.keras.models.load_model(
-        "model/swiss_chard_disease_cnn_vs_resnet50.keras",
+        "model/swiss_chard_disease_class.keras",
         compile=False
     )
 
